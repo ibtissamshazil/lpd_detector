@@ -1,0 +1,16 @@
+[
+  {
+    "index": 0,
+    "class_id": 0,
+    "class_name": "license_plate",
+    "confidence": 0.7034460306167603,
+    "coordinates": {
+      "x1": 171,
+      "y1": 314,
+      "x2": 344,
+      "y2": 397,
+      "width": 173,
+      "height": 83
+    }
+  }
+]

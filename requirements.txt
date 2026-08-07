@@ -1,0 +1,3 @@
+openvino>=2024.0
+opencv-python>=4.6.0
+ultralytics>=8.2.90,<9
