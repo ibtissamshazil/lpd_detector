@@ -3,27 +3,27 @@
     "index": 0,
     "class_id": 0,
     "class_name": "license_plate",
-    "confidence": 0.5478732585906982,
-    "straightened_image": "plate_straightened_0.jpg",
+    "confidence": 0.7675947546958923,
+    "straightened_image": "plate_straightened2_0.jpg",
     "coordinates": {
       "top_left": {
-        "x": 176,
-        "y": 256
+        "x": 328,
+        "y": 191
       },
       "top_right": {
-        "x": 252,
-        "y": 245
+        "x": 407,
+        "y": 191
       },
       "bottom_right": {
-        "x": 253,
-        "y": 261
+        "x": 407,
+        "y": 223
       },
       "bottom_left": {
-        "x": 177,
-        "y": 272
+        "x": 328,
+        "y": 223
       }
     },
-    "width": 77,
-    "height": 16
+    "width": 79,
+    "height": 32
   }
 ]

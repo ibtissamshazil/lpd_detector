@@ -174,11 +174,11 @@ def main():
     base_dir = Path(__file__).resolve().parent
     detections = detect_and_straighten_plates(
         model_path=base_dir / "license_plate_detector_int8_openvino_model",
-        image_path=base_dir / "4.jpg",
-        output_image_path=base_dir / "plate_detected2.jpg",
+        image_path=base_dir / "14.jpg",
+        output_image_path=base_dir / "plate_detected3.jpg",
         output_json_path=base_dir / "coordinates2.json",
         output_4points_json_path=base_dir / "coordinates_4points.json",
-        output_crop_path=base_dir / "plate_straightened.jpg",
+        output_crop_path=base_dir / "plate_straightened2.jpg",
         conf=0.25,
     )
 
