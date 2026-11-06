@@ -1,29 +1,137 @@
 [
   {
     "index": 0,
-    "class_id": 0,
-    "class_name": "license_plate",
-    "confidence": 0.7675947546958923,
+    "class_id": 28,
+    "class_name": "28",
+    "confidence": 635.9655151367188,
     "straightened_image": "plate_straightened2_0.jpg",
     "coordinates": {
       "top_left": {
-        "x": 328,
-        "y": 191
+        "x": 140,
+        "y": 16
       },
       "top_right": {
-        "x": 407,
-        "y": 191
+        "x": 526,
+        "y": 16
       },
       "bottom_right": {
-        "x": 407,
-        "y": 223
+        "x": 526,
+        "y": 308
       },
       "bottom_left": {
-        "x": 328,
-        "y": 223
+        "x": 140,
+        "y": 308
       }
     },
-    "width": 79,
-    "height": 32
+    "width": 386,
+    "height": 292
+  },
+  {
+    "index": 1,
+    "class_id": 60,
+    "class_name": "60",
+    "confidence": 633.7626342773438,
+    "straightened_image": "plate_straightened2_1.jpg",
+    "coordinates": {
+      "top_left": {
+        "x": 143,
+        "y": 31
+      },
+      "top_right": {
+        "x": 492,
+        "y": 31
+      },
+      "bottom_right": {
+        "x": 492,
+        "y": 308
+      },
+      "bottom_left": {
+        "x": 143,
+        "y": 308
+      }
+    },
+    "width": 349,
+    "height": 277
+  },
+  {
+    "index": 2,
+    "class_id": 122,
+    "class_name": "122",
+    "confidence": 200.5,
+    "straightened_image": "plate_straightened2_2.jpg",
+    "coordinates": {
+      "top_left": {
+        "x": 47,
+        "y": 0
+      },
+      "top_right": {
+        "x": 94,
+        "y": 0
+      },
+      "bottom_right": {
+        "x": 94,
+        "y": 0
+      },
+      "bottom_left": {
+        "x": 47,
+        "y": 0
+      }
+    },
+    "width": 47,
+    "height": 1
+  },
+  {
+    "index": 3,
+    "class_id": 199,
+    "class_name": "199",
+    "confidence": 165.0,
+    "straightened_image": "plate_straightened2_3.jpg",
+    "coordinates": {
+      "top_left": {
+        "x": 3,
+        "y": 0
+      },
+      "top_right": {
+        "x": 25,
+        "y": 0
+      },
+      "bottom_right": {
+        "x": 25,
+        "y": 0
+      },
+      "bottom_left": {
+        "x": 3,
+        "y": 0
+      }
+    },
+    "width": 22,
+    "height": 1
+  },
+  {
+    "index": 4,
+    "class_id": 16,
+    "class_name": "16",
+    "confidence": 0.5153710842132568,
+    "straightened_image": "plate_straightened2_4.jpg",
+    "coordinates": {
+      "top_left": {
+        "x": 0,
+        "y": 0
+      },
+      "top_right": {
+        "x": 0,
+        "y": 0
+      },
+      "bottom_right": {
+        "x": 0,
+        "y": 0
+      },
+      "bottom_left": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "width": 1,
+    "height": 1
   }
 ]

@@ -1,16 +1,72 @@
 [
   {
     "index": 0,
-    "class_id": 0,
-    "class_name": "license_plate",
-    "confidence": 0.7675947546958923,
+    "class_id": 28,
+    "class_name": "28",
+    "confidence": 635.9655151367188,
     "coordinates": {
-      "x1": 328,
-      "y1": 191,
-      "x2": 407,
-      "y2": 223,
-      "width": 79,
-      "height": 32
+      "x1": 140,
+      "y1": 16,
+      "x2": 526,
+      "y2": 308,
+      "width": 386,
+      "height": 292
+    }
+  },
+  {
+    "index": 1,
+    "class_id": 60,
+    "class_name": "60",
+    "confidence": 633.7626342773438,
+    "coordinates": {
+      "x1": 143,
+      "y1": 31,
+      "x2": 492,
+      "y2": 308,
+      "width": 349,
+      "height": 277
+    }
+  },
+  {
+    "index": 2,
+    "class_id": 122,
+    "class_name": "122",
+    "confidence": 200.5,
+    "coordinates": {
+      "x1": 47,
+      "y1": 0,
+      "x2": 94,
+      "y2": 0,
+      "width": 47,
+      "height": 0
+    }
+  },
+  {
+    "index": 3,
+    "class_id": 199,
+    "class_name": "199",
+    "confidence": 165.0,
+    "coordinates": {
+      "x1": 3,
+      "y1": 0,
+      "x2": 25,
+      "y2": 0,
+      "width": 22,
+      "height": 0
+    }
+  },
+  {
+    "index": 4,
+    "class_id": 16,
+    "class_name": "16",
+    "confidence": 0.5153710842132568,
+    "coordinates": {
+      "x1": 0,
+      "y1": 0,
+      "x2": 0,
+      "y2": 0,
+      "width": 0,
+      "height": 0
     }
   }
 ]

@@ -5,13 +5,14 @@ import cv2
 from ultralytics import YOLO
 
 
-def detect_license_plates(model_path, image_path, output_image_path, output_json_path, conf):
+def detect_license_plates(model_path, image_path, output_image_path, output_json_path, conf, model=None):
     image = cv2.imread(str(image_path))
     if image is None:
         raise FileNotFoundError(f"Could not read image: {image_path}")
 
-    model = YOLO(str(model_path), task="detect")
-    result = model(image, optimize=True, verbose=False, conf=conf)[0]
+    if model is None:
+        model = YOLO(str(model_path), task="detect")
+    result = model(image, imgsz=640, device="cpu", verbose=False, conf=conf)[0]
 
     detections = []
     annotated_image = image.copy()
@@ -62,7 +63,7 @@ def detect_license_plates(model_path, image_path, output_image_path, output_json
 
 
 def main():
-    image_name = "4.jpg"
+    image_name = "15.jpg"
     base_dir = Path(__file__).resolve().parent
 
     model_path = base_dir / "license_plate_detector_int8_openvino_model"

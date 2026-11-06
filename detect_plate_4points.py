@@ -173,7 +173,7 @@ def detect_and_straighten_plates(
 def main():
     base_dir = Path(__file__).resolve().parent
     detections = detect_and_straighten_plates(
-        model_path=base_dir / "license_plate_detector_int8_openvino_model",
+        model_path=base_dir / "best_int8_openvino_model",
         image_path=base_dir / "14.jpg",
         output_image_path=base_dir / "plate_detected3.jpg",
         output_json_path=base_dir / "coordinates2.json",

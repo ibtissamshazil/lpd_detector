@@ -1,0 +1,16 @@
+[
+  {
+    "index": 0,
+    "class_id": 0,
+    "class_name": "plate",
+    "confidence": 0.9617980122566223,
+    "coordinates": {
+      "x1": 179,
+      "y1": 325,
+      "x2": 335,
+      "y2": 386,
+      "width": 156,
+      "height": 61
+    }
+  }
+]

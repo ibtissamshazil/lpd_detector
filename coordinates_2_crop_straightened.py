@@ -2,18 +2,18 @@ import cv2
 import numpy as np
 
 # Load the image
-img = cv2.imread('14a.jpg')
+img = cv2.imread('15.jpg')
 
 # Define your 4 points (e.g., [[x1,y1], [x2,y2], [x3,y3], [x4,y4]])
 # Order: Top-left, top-right, bottom-right, bottom-left
-x1= 362
-x2= 452
-x3= 452
-x4= 363
-y1= 277
-y2= 270
-y3= 290
-y4= 297
+x1= 542
+x2= 572
+x3= 546
+x4= 575
+y1= 364
+y2= 339
+y3= 406
+y4= 377
 pts = np.array([[x1, y1], [x2, y2], [x3, y3], [x4, y4]], dtype=np.float32)
 
 # Calculate width and height of the new cropped image
